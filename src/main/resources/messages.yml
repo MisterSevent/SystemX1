@@ -1,0 +1,121 @@
+#Quando o jogador digita apenas /x1 setloc1
+args-insufficient-setloc1: "&cUtilize: /x1 setloc1 <name-arena>"
+
+#Quando o jogador digita apenas /x1 setloc2
+args-insufficient-setloc2: "&cUtilize: /x1 setloc2 <name-arena>"
+
+#Quando o jogador digita apenas /x1 setcamarote
+args-insufficient-setcamarote: "&cUtilize: /x1 setcamarote <name-arena>"
+
+#Quando o jogador digita apenas /x1 setsaida
+args-insufficient-setsaida: "&cUtilize: /x1 setsaida <name-arena>"
+
+#Quando o jogador digitar apenas /x1 camarote
+args-insufficient-camarote: "&cUtilize: /x1 camarote <arena>"
+
+#Quando o jogador digitar apenas /x1 encerrar
+args-insufficient-encerrar: "&cUtilize: /x1 encerrar <arena>"
+
+#Quando jogador digitar /x1 desafiar <player> apenas ou vice versa
+args-insufficient-desafiar: "&cUtilize: /x1 desafiar <player> <arena>"
+
+#Quando o console digitar /x1.
+console-execute: "&cApenas jogadores podem executar este comando"
+
+#Quando um membro digitar o comando e não tiver a permissão.
+no-permission: "&cVocê não tem permissão para executar este comando!"
+
+#Quando o jogador digitar /x1 setloc1 <name-arena>
+location1-seted: "&aLocalização da entrada 1 da arena &e{arena} &asetada com sucesso!"
+
+#Quando o jogador digitar /x1 setloc1 <name-arena>
+location2-seted: "&aLocalização da entrada 2 da arena &e{arena} &asetada com sucesso!"
+
+#Quando o jogador digita /x1 setcamarote <name-arena>
+camarote-seted: "&aLocalização do camarote da arena &e{arena} &asetada com sucesso!"
+
+#Quando o jogador digita /x1 setsaida <name-arena>
+saida-seted: "&aLocalização da saida da arena &e{arena} &asetada com sucesso!"
+
+#Caso o jogador digitar uma arena inválida:
+arena-invalid: "&cEsta arena não foi encontrada certifique-se que você digitou corretamente!"
+
+#Está mensagem irá aparecer para todos quando o jogador aceitar o x1
+Aceitou: "&e@desafiador &aaceitou um X1!"
+
+#Está mensagem irá aparecer quando jogar aceitar x1
+AssistirCamarote: "&e Para assistir o x1 utilize &f/x1 camarote {arena}"
+
+#Quando tempo do x1 acabar
+Tempo-acabou: "&cOs jogadores demoraram muito para se matar, x1 cancelado."
+
+#Está mensagem irá aparecer quando um x1 Acabar
+Arena-disponivel: "&aA Arena &e{arena} &aestá disponivel para uso."
+
+#Está mensagem será enviada para o vencedor quando ele ganhar.
+Vencedor-message: "&eParabens! &aVocê tem &c@tempo &apara coletar os itens do chão"
+
+#Está mensagem será enviado para todos quando alguem ganhar o x1
+Ganhador: "&aO jogador &a@vencedor &avenceu do &c@perdedor &ano X1."
+
+#Quando um jogador arrega um x1
+Arregou: "&aO &c@desafiado &apediou para o &c@desafiador&a!"
+
+#Quando jogador vai entrar no camarote e está com itens no inventario
+inventory-void: "&cVocê precisa esvaziar o inventario para entrar nesta arena."
+
+#Quando o jogador digitar /x1 encerrar <arena> mas não tem nenhum x1
+not-x1-arena: "&cNão há x1 nesta arena para encerrar."
+
+#Quando jogador digita /x1 aceitar, mas não tem nenhum x1 a aceitar!
+not-solicitation: "&cVocê não possui nenhum convite para X1"
+
+#Quando jogador se desafia a si mesmo.
+challenged-you: "&cVocê não pode se desafiar!"
+
+#Quando jogador já está batalhando e recebe outro convite!
+playerin-combat: "&cEste jogador já está em combate."
+
+#Quando jogador desafia em uma arena que já está em uso!
+arenain-combat: "&cEstá arena já está em uso, utilize /x1 arenas para ver as disponíveis!"
+
+#Mensagem que irá aparecer para todo servidor, quando um jogador é desafiado.
+challenged-player: "&aO jogador &e@desafiador &adesafiou o &c@desafiado &apara uma batalha!"
+
+#Mensagem enviada para o jogador desafiado
+challenged-message: "&aUtilize /x1 aceitar para aceitar o desafio"
+
+#Quando o desafiador não tem money para o x1
+challenger-no-money: "&cVocê não tem dinheiro para tirar x1"
+
+#Quando o desafiado não tem money para o x1
+challenged-no-money: "&cO Alvo não tem dinheiro para tirar x1"
+
+#Quando o jogador é invalido ou está offline
+player-invalid: "&cEste jogador é invalido ou nao está online"
+
+#Quando o jogador tenta usar comandos em X1
+commands-in-x1: "&fDetectado comando não permitido &c{comando} &fdentro da arena x1"
+
+Helps:
+  player:
+    - "&eComandos &8- &bSystemX1"
+    - ""
+    - "&7/x1 &8- &eVe todos os comandos disponíveis"
+    - "&7/x1 arenas &8 - &eVe as arenas disponiveis do servidor"
+    - "&7/x1 desafiar <jogador> <arena> &8- &eDesafia um jogador para batalha"
+    - "&7/x1 aceitar &8- &eAceita um pedido de batalha"
+    - "&7/x1 camarote <arena> &8- &eEntra em uma camarote da arena"
+  admin:
+    - "&cComandos &8- &bSystemX1"
+    - ""
+    - "&7/x1 &8- &eVe todos os comandos disponíveis"
+    - "&7/x1 arenas &8 - &eVe as arenas disponiveis do servidor"
+    - "&7/x1 desafiar <jogador> <arena> &8- &eDesafia um jogador para batalha"
+    - "&7/x1 aceitar &8- &eAceita um pedido de batalha"
+    - "&7/x1 camarote <arena> &8- &eEntra em uma camarote da arena"
+    - "&c/x1 setloc1 <arena> &8- &eSeta a localizações 1 da arena"
+    - "&c/x1 setloc2 <arena> &8- &eSeta a localizações 2 da arena"
+    - "&c/x1 setsaida <arena> &8- &eSeta a Saida da arena"
+    - "&c/x1 setcamarote <arena> &8- &eSeta a camarote da arena"
+    - "&c/x1 encerrar <arena> &8- &eencerra x1 na arena"

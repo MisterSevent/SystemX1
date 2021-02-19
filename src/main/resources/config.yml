@@ -1,0 +1,42 @@
+Database:
+  storage:
+    type: 'mysql' # mysql, sqlite
+    host: 'localhost'
+    port: 3306
+    user: 'root'
+    password: 'vertrigo'
+    database: 'programacao'
+    show-errors: false
+
+#Isto aqui é a cabeça que irá aparecer em todas as arenas no /x1 arenas.
+#NÃO MEXA SE VOCÊ NAO SABE OQUE TA FAZENDO
+Skull-url: "http://textures.minecraft.net/texture/a89f33e2f9b3a28bdf1499a28435dee4c6ae305b87326c527a39d8f6e6378eee"
+
+#Aqui é para o jogador poder entrar no camarote de uma arena só com o inventario vazio
+CamaroteItemVazio: true
+
+#Tempo máximo de um x1 (Em segundos)
+Tempo: 300
+
+#Tempo máximo para a coletar de itens do vencedor (Em segundos)
+Tempo-coleta: 10
+
+#Tempo máximo para o jogador aceitar um x1 (Em segundos).
+Tempo-aceitar: 10
+
+#Dinheiro necessário para poder desafiar
+#O Ganhador ganhara o dinheiro e o perdedo perdera
+#Obs: Utilize apenas números inteiros.
+Dinheiro: 100000
+
+#Configure as permissões.
+Permissions:
+  admin: "systemx1.admin"
+  arenas: "systemx1.arenas"
+  camarote: "systemx1.camarote"
+
+#Configure os comandos permitidos enquanto o jogador está em x1
+ComandosLiberados:
+  - "/g"
+  - "/."
+  - "/dustégay"

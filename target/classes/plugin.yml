@@ -1,0 +1,8 @@
+name: SystemX1
+author: MisterSevent
+version: 1.1
+main: com.system.SystemX1
+description: Plugin de X1 Multi Arena
+softdepend: [SimpleClans]
+commands:
+  x1:
