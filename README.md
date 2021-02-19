@@ -8,3 +8,8 @@ vitorias e kills, tem estatisticas de todos jogadores e muito mais...
 # Download
 
 Você pode esta baixando o plugins em nosso site: https://systemplugins.com
+
+# APIs 
+
+NBTItemAPI - Modificador de nbt de itens
+PaginationAPI - API de paginação automatica de inventarios
